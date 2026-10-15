@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
-from backend.main import app
+import backend.main as backend_main
 
-client = TestClient(app)
+client = TestClient(backend_main.app)
 
 def run_tests():
     print("--- Running Zenith '26 API Test Suite ---")
