@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (Zenith '26 Indigo / Purple) -->
+    <color name="brand_50">#EEF2FF</color>
+    <color name="brand_100">#E0E7FF</color>
+    <color name="brand_200">#C7D2FE</color>
+    <color name="brand_500">#6366F1</color>
+    <color name="brand_600">#4F46E5</color>
+    <color name="brand_700">#4338CA</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_pink">#EC4899</color>
+    <color name="accent_pink_dark">#DB2777</color>
+    <color name="accent_purple">#9333EA</color>
+    <color name="accent_amber">#F59E0B</color>
+    <color name="accent_emerald">#10B981</color>
+    <color name="accent_rose">#EF4444</color>
+
+    <!-- Hero Dark Gradient -->
+    <color name="hero_start">#1E1B4B</color>
+    <color name="hero_mid">#0F172A</color>
+    <color name="hero_end">#3B0764</color>
+
+    <!-- Slate Neutrals -->
+    <color name="slate_50">#F8FAFC</color>
+    <color name="slate_100">#F1F5F9</color>
+    <color name="slate_200">#E2E8F0</color>
+    <color name="slate_300">#CBD5E1</color>
+    <color name="slate_400">#94A3B8</color>
+    <color name="slate_500">#64748B</color>
+    <color name="slate_600">#475569</color>
+    <color name="slate_700">#334155</color>
+    <color name="slate_800">#1E293B</color>
+    <color name="slate_900">#0F172A</color>
+
+    <!-- Category Badge Colors -->
+    <color name="badge_technical_bg">#E0F2FE</color>
+    <color name="badge_technical_text">#0369A1</color>
+    <color name="badge_cultural_bg">#FCE7F3</color>
+    <color name="badge_cultural_text">#BE185D</color>
+    <color name="badge_sports_bg">#D1FAE5</color>
+    <color name="badge_sports_text">#047857</color>
+    <color name="badge_gaming_bg">#EDE9FE</color>
+    <color name="badge_gaming_text">#6D28D9</color>
+    <color name="badge_workshop_bg">#FEF3C7</color>
+    <color name="badge_workshop_text">#B45309</color>
+
+    <!-- Status & Alerts -->
+    <color name="badge_full_bg">#FEE2E2</color>
+    <color name="badge_full_text">#DC2626</color>
+    <color name="status_green_bg">#DCFCE7</color>
+    <color name="status_green_text">#15803D</color>
+    <color name="status_amber_bg">#FEF3C7</color>
+    <color name="status_amber_text">#B45309</color>
+    <color name="status_red_bg">#FEE2E2</color>
+    <color name="status_red_text">#B91C1C</color>
+
+    <!-- Basic UI Elements -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="scrim_dark">#990F172A</color>
+</resources>

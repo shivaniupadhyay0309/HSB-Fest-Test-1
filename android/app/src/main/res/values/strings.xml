@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Zenith \'26</string>
+    <string name="fest_dates">Nov 14–15, 2026</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="student_portal">Student Portal</string>
+    <string name="hero_badge">✨ The Biggest College Fest of the Year • Live Registration Open</string>
+    <string name="hero_title">Ignite Your Spark at Zenith \'26</string>
+    <string name="hero_subtitle">Two intense days of technical hackathons, cultural showdowns, esports tournaments, workshops, and sports championships.</string>
+    <string name="hero_meta">November 14 &amp; 15, 2026 • 📍 University Campus • ⚡ 14 Signature Events</string>
+    <string name="search_hint">Search events by title...</string>
+    <string name="loading_events">Fetching fest events from server...</string>
+    <string name="error_connect_title">Unable to Connect to Server</string>
+    <string name="error_connect_msg">The backend server is unreachable. Please ensure uvicorn is running.</string>
+    <string name="retry_connection">Retry Connection</string>
+    <string name="no_events_found">No events found</string>
+    <string name="no_events_desc">No events match your current filter or search query. Try choosing another category or clearing your search.</string>
+    <string name="reset_filters">Reset filters &amp; search</string>
+    <string name="view_details">View Details</string>
+    <string name="badge_full">FULL</string>
+    <string name="free">Free</string>
+</resources>
