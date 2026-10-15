@@ -1,15 +1,17 @@
 import os
 import shutil
 import sqlite3
+import tempfile
 from pathlib import Path
 
 # Anchor DB path to the project root directory
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # In serverless environments like Vercel, the code root is read-only.
-# We copy fest.db to /tmp so SQLite write operations (registrations, add/delete event) succeed.
+# We copy fest.db to the system temp directory so SQLite write operations succeed.
 if os.environ.get("VERCEL"):
-    DB_PATH = Path("/tmp/fest.db")
+    TEMP_DIR = Path(tempfile.gettempdir())
+    DB_PATH = TEMP_DIR / "fest.db"
     BUNDLED_DB = BASE_DIR / "fest.db"
     if not DB_PATH.exists() and BUNDLED_DB.exists():
         try:
